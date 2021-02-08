@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* outline:1px solid black; */
+}
+.ado{
+    text-align: center;
+    margin:40px 0px 0px 0px;
+    font-size:20px;
+    font-weight:600;
+    background-color:orange;
+    padding:15px 15px;
+    border-radius:10px;
+    color:white;
+}
+
+.ado:hover{
+    background-color:purple;
+}
+a{
+    text-decoration: none;
+}
+.container-fluid{
+    background-color:#81BC4A;
+}
+.topbuttons{
+    display:flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.topbuttons a{
+    margin:0px 20px;
+    text-decoration: none;
+    color:orange;
+}
+.topitems{
+    background-color:white;
+    padding:5px 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 0px 10px;
+    font-weight:600;
+}
+li.topitems:hover{
+    background-color:orange;
+}
+li.topitems a:hover{
+    color:white;
+}
+.socials{
+    display:flex;
+}
+.socials{
+    list-style-type: none;
+    margin:0px 40px 0px 0px;
+}
+.net{
+    width:30px;
+    height:20px;
+}
+.navbar{
+    display:flex;
+    list-style-type: none;
+}
+.navitems a{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    font-weight:600;
+}
+.navitems a:hover, .become:hover, .services a:hover{
+    color:purple;
+}
+.adopt{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+img.cat, img.dog{
+    margin:0px 0px 0px 5px;
+}
+img.critter{
+    margin:0px 0px 0px 12px;
+}
+.animal{
+    margin-top: 50px;
+}
+
+h5{
+    background-color:#f15e22;
+    text-align: center;
+    color:white;
+    font-size:30px;
+    padding:15px;
+}
+.blown, .friend{
+    background-color:#81bc41;
+}
+.friend{
+    text-align: center;
+    font-size:30px;
+}
+.content{
+    display:flex;
+    margin-top: 60px;
+}
+.main-content{
+    padding:0px 10px;
+}
+img.pom{
+    width:100%;
+    height:auto;
+}
+p.bolded{
+    font-size:20px;
+    font-weight:600;
+}
+.become{
+    color:#81bc41;
+    font-weight:bolder;
+}
+.italic{
+    font-style: italic;
+    font-size:20px;
+}
+.gray{
+    background-color:#81bc41;
+    display:flex;
+    justify-content: space-around;
+}
+.services{
+    list-style-type: none;
+}
+.services a{
+    color:white;
+}
+.bottomhead{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.bottomhead a{
+    color:purple;
+}
+.bottomhead a:hover{
+    color:white;
+}
+.footer{
+    background-color:#81bc41;
+    display:flex;
+    justify-content: center;
+    font-size:12px;
+}
